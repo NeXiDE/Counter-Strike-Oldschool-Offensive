@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_fairgrounds/gallery_button"
+	"$surfaceprop" "default"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

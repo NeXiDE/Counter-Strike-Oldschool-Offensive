@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture"            "models/player/custom_player/econ/head/ctm_national_gendarmerie/ctm_gendarmerie_medic_head_color"
+	"$bumpmap"                "models/player/custom_player/econ/head/ctm_national_gendarmerie/ctm_gendarmerie_medic_head_normal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

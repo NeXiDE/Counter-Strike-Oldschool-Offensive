@@ -1,0 +1,14 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/de_alleyway/street_basketball_hoop"
+	"%keywords" "cstrike"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

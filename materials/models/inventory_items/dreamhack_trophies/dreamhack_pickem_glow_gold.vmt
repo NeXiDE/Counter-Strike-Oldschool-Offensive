@@ -1,0 +1,11 @@
+unlitgeneric
+{
+	$basetexture	models\inventory_items\dreamhack_trophies\dreamhack_pickem_glow_gold
+	$additive 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models\props_docks\piling_cluster01a"
+	"$surfaceprop" "wood"
+     "$envmap" "env_cubemap"
+     "$basealphaenvmapmask" 1
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,19 @@
+"decalmodulate"
+{
+	"$basetexture"               "de_nuke/hr_nuke/caustics_004_faded"
+	"proxies"
+	{
+		"animatedtexture"
+		{
+			"animatedtexturevar"         "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate"   15.50
+		}
+	}
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

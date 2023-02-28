@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 			"hr_massive\survival_woodsiding_color"
+
+	"$bumpmap"                	"hr_massive\survival_woodsiding_normal"
+	"$surfaceprop"            	"wood"
+	"$color"                  	"[0.55 0.55 0.55]"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

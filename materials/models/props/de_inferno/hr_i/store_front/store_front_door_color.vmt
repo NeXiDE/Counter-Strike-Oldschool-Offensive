@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\de_inferno\hr_i\store_front\store_front_door_color"
+	"$blendtintbybasealpha" "1"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

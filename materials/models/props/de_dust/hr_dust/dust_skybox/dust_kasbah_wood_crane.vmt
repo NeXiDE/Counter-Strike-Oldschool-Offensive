@@ -1,0 +1,14 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props/de_dust/hr_dust/dust_skybox/dust_kasbah_wood_crane.vtf"
+        "$model" 1
+	"$surfaceprop" 		"sand"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

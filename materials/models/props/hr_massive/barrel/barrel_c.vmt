@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\barrel\barrel_c"
+
+//	"$phong" "1"
+//	"$phongexponent" "80"
+//	"$phongtint" "[1 1 1]"
+//	"$phongboost" ".9"
+//	"$phongfresnelranges" "[.1 .5 1]"
+
+	"$bumpmap" "models\props\hr_massive\barrel\barrel_normal"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

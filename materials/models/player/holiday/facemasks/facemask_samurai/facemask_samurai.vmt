@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$basetexture models\player\holiday\facemasks\facemask_samurai\facemask_samurai.vtf
+	$bumpmap models\player\holiday\facemasks\facemask_samurai\facemask_samurai_normal.vtf
+
+	$phong 1
+	$phongexponent 64
+	$phongboost 0.4
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

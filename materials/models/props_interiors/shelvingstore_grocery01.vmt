@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/ShelvingStore_Grocery01"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

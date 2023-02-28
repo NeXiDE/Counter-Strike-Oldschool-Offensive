@@ -1,0 +1,14 @@
+"DecalModulate"
+{
+	"$basetexture"	"hr_massive\signage_number_n2"
+	"$fogscale" "1.2"
+	"$decal"	1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

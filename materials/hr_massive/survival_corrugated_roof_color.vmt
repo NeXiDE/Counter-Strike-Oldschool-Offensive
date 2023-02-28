@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 			"hr_massive\survival_corrugated_roof_color"
+	"$bumpmap"                	"hr_massive\survival_corrugated_roof_normal"
+	"$surfaceprop"            	"metalpanel"
+//	"$color"                  	"{199 169 105}"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

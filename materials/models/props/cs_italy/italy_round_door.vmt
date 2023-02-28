@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props/cs_italy/italy_round_door"
+	"%keywords" "cstrike"
+	"$surfaceprop" "concrete"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

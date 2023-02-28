@@ -1,0 +1,14 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_junk/TrashDumpster02"
+	"$surfaceprop" "metal"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

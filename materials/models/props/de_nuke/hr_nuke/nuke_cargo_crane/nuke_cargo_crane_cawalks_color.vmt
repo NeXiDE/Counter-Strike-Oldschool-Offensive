@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props/de_nuke/hr_nuke/nuke_cargo_crane/nuke_cargo_crane_cawalks_color"
+	"$surfaceprop" "metal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "wood/wood_int_07"
+	"$surfaceprop" "wood"
+	"%keywords" "l4d2"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

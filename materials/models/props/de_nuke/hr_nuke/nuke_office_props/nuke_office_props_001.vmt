@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/nuke_office_props/nuke_office_props_001"
+	"$basealphaenvmapmask"    "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 2]"
+	"$surfaceprop"            "metal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

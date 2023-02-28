@@ -1,0 +1,14 @@
+Subrect
+{
+$Material "decals/decals_mod2x"
+$Pos "0 256"
+$Size "128 128"
+$decalscale 0.11
+$modelmaterial "decals/glass/shot3"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_patio_set\dust_patio_table_color"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmask" 			"models\props\de_dust\hr_dust\dust_patio_set\dust_patio_table_mask"
+	"$envmapcontrast" 		".8"
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 1]"
+
+	"$surfaceprop" 			"metal"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

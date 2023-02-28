@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\milholesd"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster\milholesd_ref"
+	"$surfaceprop" "plaster"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

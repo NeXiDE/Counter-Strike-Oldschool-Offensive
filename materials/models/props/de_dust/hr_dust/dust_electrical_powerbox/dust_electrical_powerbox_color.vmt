@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 			"models\props\de_dust\hr_dust\dust_electrical_powerbox\dust_electrical_powerbox_color"
+
+	"$tintmasktexture"		"models\props\de_dust\hr_dust\dust_electrical_powerbox\dust_electrical_powerbox_tint"
+
+	"$envmap" 			"models\props\de_dust\hr_dust\dust_cubemap\dust_cubemap"
+	"$envmapmaskintintmasktexture"	"1"
+
+	"$envmaplightscale"		"1"
+	"$envmaplightscaleminmax" 	"[0 2]"
+	"$envmapcontrast" 		".9"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

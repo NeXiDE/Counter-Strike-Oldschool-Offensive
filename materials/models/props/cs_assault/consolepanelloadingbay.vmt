@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_assault\consolepanelloadingbay"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\cs_assault\consolepanelloadingbay_ref"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

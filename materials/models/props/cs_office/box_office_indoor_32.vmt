@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props\cs_office\box_office_indoor_32"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

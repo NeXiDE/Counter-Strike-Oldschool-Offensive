@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_exteriors/LighthouseTrim"
+	"$detail" "detail\dt_wood2"
+       	"$detailscale" "12"
+       	"$detailblendfactor" ".6"
+       	"$detailblendmode" "0"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

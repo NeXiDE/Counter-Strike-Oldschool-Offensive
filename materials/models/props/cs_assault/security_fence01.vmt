@@ -1,0 +1,15 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/cs_assault/security_fence01"
+
+        "$alphatest" 1
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

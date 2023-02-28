@@ -1,0 +1,19 @@
+vertexlitgeneric
+{
+	"$basetexture"            "models/props/de_nuke/hr_nuke/gas_meter/gas_meter_pipes_color"
+	"$detail"                 "models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+	"$detailscale"            "[1.5 0.75]"
+	"$detailblendfactor"      "1"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapmask"             "models/props/de_nuke/hr_nuke/gas_meter/gas_meter_pipes_color"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1]"
+	"$envmapcontrast"         "0.25"
+	"$surfaceprop"            "metal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

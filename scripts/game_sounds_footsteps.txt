@@ -1,0 +1,7101 @@
+//CT Default Suit Sound
+//T Default Suit Sound
+
+//Concrete DONE
+//Ceiling Tile DONE
+//Default DONE
+//Wood DONE
+//Metal Solid DONE
+//Metal Chain Link DONE
+//Metal Grate DONE
+//Metal Ladder DONE
+//Metal Vent DONE
+//Snow DONE...sort of
+//Dirt DONE
+//Mud DONE
+//Slime DONE
+//Grass DONE
+//Tile DONE
+//Water Puddle DONE
+//Water Wade DONE
+//Wood Ladder DONE
+//Glass DONE
+//Gravel DONE
+//Flesh NOT NEEDED
+//Sand DONE
+//Glass Bottle 
+//Drywall DONE
+//Cardboard NOT NEEDED
+//Plastic Barrel NOT NEEDED
+//Plastic Box DONE
+//Rubber DONE...sort of
+//Grenade NOT NEEDED
+//Wood Box and Crate DONE
+//Wood Panel DONE
+//Weapon NOT NEEDED
+//Foliage DONE
+//Carpet DONE
+
+//***********
+//Suit Sounds
+//***********
+
+"CT_Default.Suit"
+{
+	"pitch"			"90"
+	"volume" 		"0.01"
+
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/suit1.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_suit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_suit"
+			 // multiply all volume adjustments together
+			
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+			
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.05"
+				"match_substring" "false" 			
+				"match_entry" "CT_Default.Suit"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+			
+			"volume_falloff"
+			{
+				"input_min" "120.0"	
+				"input_max" "900.0"
+			}
+		}
+	}
+}
+
+"CT_Default.SuitLand"
+{
+	"pitch"			"90"
+	"volume"		"0.01"
+
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/suit1.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_suit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_suit"
+			 // multiply all volume adjustments together
+			
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+			
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.05"
+				"match_substring" "false" 			
+				"match_entry" "CT_Default.Suit"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+			
+			"volume_falloff"
+			{
+				"input_min" "120.0"	
+				"input_max" "900.0"
+			}
+		}
+	}
+}
+
+"T_Default.Suit"
+{
+	"pitch"			"110"
+	"volume"		"0.01"
+
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/suit1.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_suit_start"	
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_suit"
+			
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.05" 
+				"match_substring" "false" 			
+				"match_entry" "T_Default.Suit"
+				//"match_sound" "common/null.wav"
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+			
+			"volume_falloff"
+			{
+				"input_min" "120.0"	
+				"input_max" "900.0"
+			}
+		
+		}
+	}
+}
+
+"T_Default.SuitLand"
+{
+	"pitch"			"110"
+	"volume"		"0.01"
+
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/suit1.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_suit_start"	
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_suit"
+			
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.05" 
+				"match_substring" "false" 			
+				"match_entry" "T_Default.Suit"
+				//"match_sound" "common/null.wav"
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+			
+			"volume_falloff"
+			{
+				"input_min" "120.0"	
+				"input_max" "900.0"
+			}
+		
+		}
+	}
+}
+
+
+//***********************
+//Footstep sounds
+//**************************
+
+//************
+//CONCRETE - DONE
+//************
+
+"CT_Concrete.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "CT_Concrete.StepLeft"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"CT_Concrete.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"100"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "CT_Concrete.StepRight"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"T_Concrete.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"110"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "T_Concrete.StepLeft"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"T_Concrete.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"110"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "T_Concrete.StepRight"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"Land_Concrete.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//CEILING TILE - DONE
+//************
+
+"CT_Ceiling_Tile.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"95"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile1.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile3.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"CT_Ceiling_Tile.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile2.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile4.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile6.wav"
+
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"T_Ceiling_Tile.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"95"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile1.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile3.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile5.wav"
+		
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"T_Ceiling_Tile.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile2.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile4.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"Land_Ceiling_Tile.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//DEFAULT - DONE
+//************
+
+"CT_Default.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "CT_Default.StepLeft"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"CT_Default.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"100"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "CT_Default.StepRight"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+		
+	}
+}
+
+"T_Default.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"105, 110"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "T_Default.StepLeft"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"T_Default.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"105, 110"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "T_Default.StepRight"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+		}
+	}
+}
+
+"Land_Default.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//**********
+//WOOD - DONE
+//**********
+
+"CT_Wood.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"CT_Wood.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_Wood.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_Wood.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"Land_Wood.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//**********
+//METAL SOLID - DONE
+//**********
+
+
+"CT_SolidMetal.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_SolidMetal.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_SolidMetal.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"90, 95"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_SolidMetal.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_SolidMetal.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//***************
+//METAL CHAIN LINK - DONE
+//***************
+
+"CT_ChainLink.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"99,101"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/chainlink1.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink3.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_ChainLink.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"99,101"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/chainlink2.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink4.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_ChainLink.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"99,101"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/chainlink1.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink3.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink5.wav"
+		
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_ChainLink.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"99,101"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/chainlink2.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink4.wav"
+		"wave"		"~oldcsgo_player/footsteps/chainlink6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_ChainLink.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//***********
+//METAL GRATE - DONE
+//***********
+
+"CT_MetalGrate.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metalgrate1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+		}
+	}
+}
+
+"CT_MetalGrate.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metalgrate2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.9"
+			}
+		}
+	}
+}
+
+"T_MetalGrate.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metalgrate1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.6"
+			}
+		}
+	}
+}
+
+"T_MetalGrate.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"100"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metalgrate2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metalgrate6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.6"
+			}
+		}
+	}
+}
+
+"Land_MetalGrate.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//METAL LADDER - DONE
+//************
+
+"CT_Ladder.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/ladder1.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder3.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Ladder.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/ladder2.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder4.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Ladder.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/ladder1.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder3.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Ladder.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/ladder2.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder4.wav"
+		"wave"		"~oldcsgo_player/footsteps/ladder6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Ladder.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//**********
+//METAL VENT, METAL BOX - DONE
+//***********
+
+"CT_MetalVent.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/duct1.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct3.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_MetalVent.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/duct2.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct4.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_MetalVent.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/duct1.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct3.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_MetalVent.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/duct2.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct4.wav"
+		"wave"		"~oldcsgo_player/footsteps/duct6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_MetalVent.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//**********
+//SNOW - DONE (sort of)
+//*********
+
+"CT_Snow.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/snow1.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow3.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+		}
+	}
+}
+
+"CT_Snow.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/snow2.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow4.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+		}
+	}
+}
+
+"T_Snow.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/snow1.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow3.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+		}
+	}
+}
+
+"T_Snow.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/snow2.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow4.wav"
+		"wave"		"~oldcsgo_player/footsteps/snow6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.7"
+			}
+		}
+	}
+}
+
+"Land_Snow.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*******
+//DIRT - DONE
+//******
+
+"CT_Dirt.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/dirt1.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt3.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.6" 
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"CT_Dirt.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/dirt2.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt4.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.6" 
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"T_Dirt.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/dirt1.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt3.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.6" 
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"T_Dirt.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/dirt2.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt4.wav"
+		"wave"		"~oldcsgo_player/footsteps/dirt6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.6" 
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"Land_Dirt.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*********
+//MUD - DONE
+//*********
+
+"CT_Mud.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud1.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud3.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Mud.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud2.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud4.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Mud.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud1.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud3.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Mud.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud2.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud4.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Mud.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*********
+//SLIME - DONE
+//*********
+
+"CT_Slime.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud1.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud3.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Slime.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud2.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud4.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Slime.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud1.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud3.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Slime.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud2.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud4.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Slime.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*******
+//SLIPPERY SLIME - DONE?
+//*******
+
+"T_SlipperySlime.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"90,105"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud1.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud3.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_SlipperySlime.StepRight"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"90,105"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud2.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud4.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_SlipperySlime.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"90,105"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud1.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud3.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_SlipperySlime.StepRight"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"90,105"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/mud2.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud4.wav"
+		"wave"		"~oldcsgo_player/footsteps/mud6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_SlipperySlime.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.6"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/land.wav"
+		"wave"		"~oldcsgo_player/land2.wav"
+		"wave"		"~oldcsgo_player/land3.wav"
+		"wave"		"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.5"//volumeland
+			}
+		}
+	}
+}
+
+
+/////////////////////
+/// SILENT
+////////////////////
+
+"T_Silent.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.01"
+	"pitch"			"90,105"
+
+	"wave" "common/null.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Silent.StepRight"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.01"
+	"pitch"			"90,105"
+	"wave" "common/null.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Silent.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.01"
+	"pitch"			"90,105"
+	"wave" "common/null.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Silent.StepRight"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.01"
+	"pitch"			"90,105"
+	"wave" "common/null.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Silent.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"		"0.01"
+	"pitch"			"100"
+	"wave" "common/null.wav"
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.5"//volumeland
+			}
+		}
+	}
+}
+
+//*******
+//GRASS - DONE
+//*******
+
+"CT_Grass.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass1.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass3.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.2"
+			}
+		}
+	}
+}
+
+"CT_Grass.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass2.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass4.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.2"
+			}
+		}
+	}
+}
+
+"T_Grass.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass1.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass3.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.2"
+			}
+		}
+	}
+}
+
+"T_Grass.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass2.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass4.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.2"
+			}
+		}
+	}
+}
+
+"Land_Grass.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*****
+// TILE - DONE
+//*****
+
+"CT_Tile.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile1.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile3.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile5.wav"
+		
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"CT_Tile.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile2.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile4.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"T_Tile.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1"
+	"pitch"			"95"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile1.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile3.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile5.wav"
+		
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"T_Tile.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"95"
+	"volume"			"1"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/tile2.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile4.wav"
+		"wave"		"~oldcsgo_player/footsteps/tile6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.75"
+			}
+		}
+	}
+}
+
+"Land_Tile.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*******
+//WATER PUDDLE - DONE
+//*******
+
+"CT_Water.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/slosh2.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh4.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Water.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/slosh1.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh3.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Water.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/slosh2.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh4.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh6.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Water.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/slosh1.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh3.wav"
+		"wave"		"~oldcsgo_player/footsteps/slosh5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Water.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*******
+//WATER WADE - DONE
+//*******
+
+"ct_wade.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wade1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"ct_wade.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wade2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"t_wade.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wade1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"t_wade.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wade2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wade6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+		}
+	}
+}
+
+"Land_Wade.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//**********
+//WOOD SOLID
+//**********
+
+"CT_Wood_Solid.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"CT_Wood_Solid.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_Wood_Solid.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_Wood_Solid.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"Land_Wood_Solid.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_physics_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*************
+//WOOD LADDER - DONE
+//*************
+
+"CT_WoodLadder.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"CT_WoodLadder.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_WoodLadder.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_WoodLadder.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"Land_WoodLadder.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*************
+//WOOD BASKET
+//*************
+
+"CT_Wood_Basket.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"CT_Wood_Basket.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_Wood_Basket.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"T_Wood_Basket.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+		}
+	}
+}
+
+"Land_Wood_Basket.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"101"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.4"//volumeland
+			}
+		}
+	}
+}
+
+//******
+//GLASS
+//******
+
+"CT_Glass.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+		
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.85"
+			}
+		}
+	}
+}
+
+"CT_Glass.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.85"
+			}
+		}
+	}
+}
+
+"T_Glass.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+
+		
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.85"
+			}
+		}
+	}
+}
+
+"T_Glass.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"100"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.85"
+			}
+		}
+	}
+}
+
+"Land_Glass.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*******
+//GRAVEL - DONE
+//*******
+
+"CT_Gravel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/gravel2.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel4.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Gravel.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/gravel1.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel3.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Gravel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/gravel1.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel3.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Gravel.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/gravel2.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel4.wav"
+		"wave"		"~oldcsgo_player/footsteps/gravel6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Gravel.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*********
+//FLESH - NOT NEEDED
+//********
+
+"CT_Flesh.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"physics/flesh/flesh_impact_hard1.wav"
+		"wave"	"physics/body/body_medium_impact_soft3.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Flesh.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"physics/flesh/flesh_impact_hard2.wav"
+		"wave"	"physics/body/body_medium_impact_soft4.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Flesh.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"0.3"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"	"physics/flesh/flesh_impact_hard1.wav"
+		"wave"	"physics/body/body_medium_impact_soft3.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Flesh.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"player/footsteps/new/land_mud_01.wav"
+		"wave"	"player/footsteps/new/land_mud_02.wav"
+		"wave"	"player/footsteps/new/land_mud_03.wav"
+		"wave"	"player/footsteps/new/land_mud_04.wav"
+		"wave"	"player/footsteps/new/land_mud_05.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"land_flesh.stepleft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"physics/flesh/flesh_impact_hard1.wav"
+		"wave"	"physics/body/body_medium_impact_soft3.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"land_flesh.stepright"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"player/footsteps/new/land_mud_01.wav"
+		"wave"	"player/footsteps/new/land_mud_02.wav"
+		"wave"	"player/footsteps/new/land_mud_03.wav"
+		"wave"	"player/footsteps/new/land_mud_04.wav"
+		"wave"	"player/footsteps/new/land_mud_05.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+//************
+//SAND
+//***********
+
+"CT_Sand.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"pitch"			"90,100"
+
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/sand1.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand3.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.8" 
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"CT_Sand.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"pitch"			"90,100"
+
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/sand2.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand4.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.8" 
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"T_Sand.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"90,100"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/sand1.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand3.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.8"
+				"input_max" "1.0"		
+			}
+		}
+	}
+}
+
+"T_Sand.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90,100"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/sand2.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand4.wav"
+		"wave"		"~oldcsgo_player/footsteps/sand6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			
+			"random_volume"
+			{
+				"input_min" "0.8" 
+				"input_max" "1.0"	
+			}
+		}
+	}
+}
+
+"Land_Sand.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//GLASS BOTTLE - NOT NEEDED
+//***********
+
+"CT_GlassBottle.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.2"
+	"rndwave"
+	{
+		"wave"		"physics/glass/glass_impact_soft1.wav"
+		"wave"		"physics/glass/glass_impact_soft2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_GlassBottle.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.2"
+	"rndwave"
+	{
+		"wave"		"physics/glass/glass_impact_soft2.wav"
+		"wave"		"physics/glass/glass_impact_soft3.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_GlassBottle.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"0.2"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"physics/glass/glass_impact_soft1.wav"
+		"wave"		"physics/glass/glass_impact_soft2.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_GlassBottle.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"0.2"
+	"rndwave"
+	{
+		"wave"		"physics/glass/glass_impact_soft2.wav"
+		"wave"		"physics/glass/glass_impact_soft3.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_GlassBottle.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//DRYWALL - DONE
+//***********
+
+"CT_Drywall.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete7.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Drywall.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Drywall.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Drywall.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Drywall.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//CARDBOARD - NOT NEEDED
+//***********
+
+"CT_Cardboard.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/cardboard/cardboard_box_impact_soft1.wav"
+		"wave"		"physics/cardboard/cardboard_box_impact_soft2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Cardboard.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/cardboard/cardboard_box_impact_soft3.wav"
+		"wave"		"physics/cardboard/cardboard_box_impact_soft4.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Cardboard.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"0.5"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"physics/cardboard/cardboard_box_impact_soft1.wav"
+		"wave"		"physics/cardboard/cardboard_box_impact_soft2.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Cardboard.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/cardboard/cardboard_box_impact_soft3.wav"
+		"wave"		"physics/cardboard/cardboard_box_impact_soft4.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Cardboard.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//PLASTIC BARREL
+//***********
+
+"CT_Plastic_Barrel.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/plastic/plastic_barrel_impact_soft1.wav"
+		"wave"		"physics/plastic/plastic_barrel_impact_soft2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Plastic_Barrel.StepRight"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/plastic/plastic_barrel_impact_soft3.wav"
+		"wave"		"physics/plastic/plastic_barrel_impact_soft4.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Plastic_Barrel.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.5"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"physics/plastic/plastic_barrel_impact_soft1.wav"
+		"wave"		"physics/plastic/plastic_barrel_impact_soft2.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Plastic_Barrel.StepRight"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"98,102"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/plastic/plastic_barrel_impact_soft3.wav"
+		"wave"		"physics/plastic/plastic_barrel_impact_soft4.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Plastic_Barrel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"pitch"			"92,97"
+	"volume"			"0.5"
+	"rndwave"
+	{
+		"wave"		"physics/plastic/plastic_barrel_impact_soft1.wav"
+		"wave"		"physics/plastic/plastic_barrel_impact_soft2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+//************
+//PLASTIC BOX - DONE
+//***********
+
+"CT_Plastic_Box.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"CT_Plastic_Box.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"T_Plastic_Box.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"T_Plastic_Box.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"Land_Plastic_Box.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//RUBBER - DONE...sort of
+//***********
+
+"CT_Rubber.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"CT_Rubber.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"T_Rubber.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"T_Rubber.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.5"
+			}
+		}
+	}
+}
+
+"Land_Rubber.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//GRENADE - NOT NEEDED
+//***********
+
+"CT_Grenade.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_grenade_impact_soft2.wav"
+		"wave"	"physics/metal/metal_grenade_impact_soft3.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Grenade.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_grenade_impact_soft1.wav"
+		"wave"	"physics/metal/metal_grenade_impact_soft2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Grenade.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"0.3"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_grenade_impact_soft2.wav"
+		"wave"	"physics/metal/metal_grenade_impact_soft3.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Grenade.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"0.3"
+	"rndwave"
+	{
+		"wave"	"physics/metal/metal_grenade_impact_soft1.wav"
+		"wave"	"physics/metal/metal_grenade_impact_soft2.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+//*******************
+//WOOD BOX - DONE
+//*******************
+
+"CT_WoodBox.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_WoodBox.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_WoodBox.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_WoodBox.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_WoodBox.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//********************
+// WOOD CRATE - DONE
+//*******************
+
+"CT_Wood_Crate.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Wood_Crate.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Wood_Crate.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood1.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood3.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Wood_Crate.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/wood2.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood4.wav"
+		"wave"		"~oldcsgo_player/footsteps/wood6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Wood_Crate.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//*******************
+//WOOD PANEL - DONE
+//*******************
+
+"CT_Wood_Panel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/woodpanel1.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel3.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Wood_Panel.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/woodpanel2.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel4.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Wood_Panel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/woodpanel1.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel3.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Wood_Panel.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/woodpanel2.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel4.wav"
+		"wave"		"~oldcsgo_player/footsteps/woodpanel6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Wood_Panel.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+
+//*******************
+//WEAPON - NOT NEEDED
+//*******************
+
+"CT_Weapon.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+		"wave"		"physics/metal/weapon_footstep1.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Weapon.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+		"wave"		"physics/metal/weapon_footstep2.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Weapon.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+
+		"wave"		"physics/metal/weapon_footstep1.wav"
+
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Weapon.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+		"wave"		"physics/metal/weapon_footstep2.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+//*******************
+//FOLIAGE - DONE
+//*******************
+
+"CT_Foliage.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass1.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass3.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Foliage.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass2.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass4.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Foliage.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass1.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass3.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Foliage.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/grass2.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass4.wav"
+		"wave"		"~oldcsgo_player/footsteps/grass6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Foliage.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+//************
+//CARPET - DONE
+//************
+
+"CT_Carpet.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"92,97"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+		
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_Carpet.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"92,97"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Carpet.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"98,102"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete1.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete3.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete5.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_Carpet.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"98,102"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/concrete2.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete4.wav"
+		"wave"		"~oldcsgo_player/footsteps/concrete6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"Land_Carpet.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+"Heavy.Step"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"92,97"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/suit1.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+			"volume_accumulate"
+			{
+				"input1" "0.8"
+			}
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"execute_once" "true"
+				"input_active" "1.0"	
+				"input_duration" "0.02"
+				"match_substring" "false" 			
+				"match_entry" "CT_Concrete.StepLeft"
+				// "match_sound" "common/null.wav""
+				"match_channel" "false"
+				"match_entity" "true"
+			}
+			
+			//"random_volume"
+			//{
+				//"input_min" "0.5" 
+				//"input_max" "1.0"		
+			//}
+		}
+	}
+}
+
+"Land_MetalBarrel.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+"Land_MetalVehicle.StepLeft"
+{
+	"channel"       "CHAN_STATIC"
+
+	"soundlevel"  		"SNDLVL_75dB"
+	"volume"			"0.9, 1.0"
+	"pitch"			"100"
+	"rndwave"
+	{
+		"wave"			"~oldcsgo_player/land.wav"
+		"wave"			"~oldcsgo_player/land2.wav"
+		"wave"			"~oldcsgo_player/land3.wav"
+		"wave"			"~oldcsgo_player/land4.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_physics"
+			
+			"volume_falloff"
+			{
+				"input_max" "1000"//falloffland
+			}
+			
+			"distance_shutdown"
+			{
+				"input2" "1500.0"
+			}
+			
+			"volume_accumulate"
+			{
+				"input7" "0.9"//volumeland
+			}
+		}
+	}
+}
+
+"CT_MetalBarrel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_MetalBarrel.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_MetalBarrel.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"90, 95"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_MetalBarrel.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_MetalVehicle.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"CT_MetalVehicle.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_MetalVehicle.StepLeft"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"volume"			"1.0"
+	"pitch"			"90, 95"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal2.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal4.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal6.wav"
+	}
+	"soundentry_version" "2"	
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}
+
+"T_MetalVehicle.StepRight"
+{
+	"channel"       "CHAN_BODY"
+
+	"soundlevel"  		"SNDLVL_90dB"
+	"pitch"			"90, 95"
+	"volume"			"1.0"
+	"rndwave"
+	{
+		"wave"		"~oldcsgo_player/footsteps/metal1.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal3.wav"
+		"wave"		"~oldcsgo_player/footsteps/metal5.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_limit_footsteps_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_footsteps"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\debris_stone_a\debris_stone_a.vtf"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 2 2 ]"
+	"$detailblendfactor" 	".8"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

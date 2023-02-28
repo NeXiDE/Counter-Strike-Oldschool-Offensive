@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_phone_booth\survival_phone_booth_color"
+
+//	"$bumpmap" 	"models\props\hr_massive\survival_phone_booth\survival_phone_booth_normal"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Concrete/concretefloor008a"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown,c17trainstation"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

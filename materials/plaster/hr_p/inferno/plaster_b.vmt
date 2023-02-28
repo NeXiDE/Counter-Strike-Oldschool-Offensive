@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+$baseTexture "plaster/hr_p/inferno/plaster_b"
+$bumpmap "plaster/hr_p/inferno/plaster_a_normals"
+
+$surfaceprop concrete
+
+"$detail" 				"detail\plaster_detail_01"
+"$detailscale" 			"[10 10]"
+"$detailblendfactor" 	".35"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

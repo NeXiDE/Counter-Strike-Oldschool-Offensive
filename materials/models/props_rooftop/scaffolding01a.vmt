@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_rooftop/Scaffolding01a"
+$surfaceprop metal
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

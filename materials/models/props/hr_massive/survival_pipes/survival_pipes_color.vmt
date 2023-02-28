@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_pipes\survival_pipes_color"
+
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

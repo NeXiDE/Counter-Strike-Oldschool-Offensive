@@ -1,0 +1,11 @@
+"DecalModulate"
+{
+	"$basetexture" "Decals/metal/steel03"
+	"$decalscale" 0.08
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

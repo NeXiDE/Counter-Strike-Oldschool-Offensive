@@ -1,0 +1,11 @@
+// ### This basic VMT was written based on the D:\delete me\tools\python\templateStrings.py script ###
+"VertexLitGeneric"
+{
+	$baseTexture "models/props/de_burger/prop_bank_roof_ladder.vtf"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

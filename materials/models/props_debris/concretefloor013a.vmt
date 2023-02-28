@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Concrete/concretefloor013a"
+	"$surfaceprop" "concrete"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

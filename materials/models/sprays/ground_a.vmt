@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+$baseTexture "ground/hr_g/ground_a"
+
+"$envmap" "env_cubemap"
+"$envmaptint" 		"[.03 .03 .03]"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

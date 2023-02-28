@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\offwhtbrdb"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+	"$surfaceprop" "default"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

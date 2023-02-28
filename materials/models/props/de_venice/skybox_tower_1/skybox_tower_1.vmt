@@ -1,0 +1,20 @@
+"Unlitgeneric"
+{
+	"$basetexture" "models\props\de_venice\skybox_tower_1\skybox_tower_1"
+
+	$nofog 1
+
+	//"$bumpmap" "effects/flat_normal"
+	//"$phongexponent" "1"
+	//"$phongtint" "[1 1 1]"
+	//"$phongboost" "1"
+	//"$phongfresnelranges" "[0 0.5 1]"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

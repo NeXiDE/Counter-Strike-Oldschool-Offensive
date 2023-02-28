@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_misc/bollard"
+	"$bumpmap" "models/props_misc/bollard_normal"
+	"$surfaceprop" "metal"
+	//"$envmaptint" "[ 220 200 110]"
+	//"$envmapsaturation" 1.2
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+
+
+
+
+
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_inferno\hr_i\inferno_fruit_container\inferno_fruit_container_color"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

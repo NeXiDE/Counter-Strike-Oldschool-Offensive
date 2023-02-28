@@ -1,0 +1,10 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "models/props_misc/tea_pot"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_arches\dust_arch_01_pattern_color"
+	"$decaltexture"			"models\props\de_dust\hr_dust\dust_arches\dust_arch_01_AO"
+	"$decalblendmode "		"1"
+    "$bumpmap" 				"models\props\de_dust\hr_dust\dust_arches\dust_arch_01_pattern_normal"
+	"$surfaceprop" 			"concrete"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

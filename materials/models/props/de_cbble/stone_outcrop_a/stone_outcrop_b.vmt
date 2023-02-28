@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_cbble\stone_outcrop_a\stone_outcrop_a"
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 6 6 ]"
+	"$detailblendfactor" 	".5"
+	$bumpmap "models\props\de_cbble\stone_outcrop_a\stone_outcrop_a_normal"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

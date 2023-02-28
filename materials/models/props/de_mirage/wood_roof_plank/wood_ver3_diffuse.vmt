@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "de_mirage/wood/wood_ver3_diffuse"
+	"$surfaceprop" "sand"
+	//"$detail" "detail/dt_ground2"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

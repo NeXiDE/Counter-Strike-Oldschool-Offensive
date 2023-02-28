@@ -1,0 +1,19 @@
+//Was using RT, but removed it cuz sucks on it.
+
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\rif_galilar\scope_lense"
+	"$translucent" 1
+	"$color" "[1 8 1]"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[0.2 1 0.2]"
+	Proxies
+	{
+		IronSightAmount
+		{
+			resultVar	"$alpha"
+			invert		1
+		}
+	}
+}

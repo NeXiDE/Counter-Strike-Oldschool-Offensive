@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_nuke\nukmetwallo"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "de_nuke\nukmetwallo_ref"
+	"$surfaceprop" "concrete"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

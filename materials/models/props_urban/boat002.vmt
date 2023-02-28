@@ -1,0 +1,13 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/boat002.vtf"
+$allowdiffusemodulation 1
+$blendtintbybasealpha 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

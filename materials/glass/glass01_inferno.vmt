@@ -1,0 +1,16 @@
+LightmappedGeneric
+{
+$baseTexture "models\props_windows/window_uban_apt_glass"
+$translucent 1
+$envmap env_cubemap
+$envmapmask "models\props_windows\window_uban_apt_glass_ref"
+$envmaptint "[0.5 0.5 0.5]"
+$surfaceprop glass
+$envmapcontrast ".7"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

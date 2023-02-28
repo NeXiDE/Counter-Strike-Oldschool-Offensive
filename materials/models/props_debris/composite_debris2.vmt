@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_debris/composite_debris2"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

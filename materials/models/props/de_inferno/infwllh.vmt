@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"	"stone\infwllh"
+	"$surfaceprop" "concrete"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

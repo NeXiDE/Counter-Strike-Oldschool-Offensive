@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_curtain\survival_curtain_color"
+
+	"$tintmasktexture"	"models\props\hr_massive\survival_curtain\survival_curtain_tint"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

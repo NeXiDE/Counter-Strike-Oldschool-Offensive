@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"black"
+	"$bumpmap" "effects\flat_normal"
+	"$translucent" 1
+	"$additive" 1
+	"$phong" 1
+	"$phongexponent" 10000
+	"$phongboost" 10
+	"$envmap" "Editor\cube_vertigo"
+	"$envmapcontrast" 1
+	"$envmapfresnel" 1
+	"$phongfresnelranges" "[0.25 0.8 1]"
+	"$envmaptint" "[0.25 0.25 .25]"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

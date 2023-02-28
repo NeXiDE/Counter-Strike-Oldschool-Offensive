@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 		"models\props\de_dust\hr_dust\dust_broken_building\dust_broken_building_color"
+    	"$bumpmap" 		"models\props\de_dust\hr_dust\dust_broken_building\dust_broken_building_normal"
+
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" 		"plaster"
+	"$alphatest" 		"1"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

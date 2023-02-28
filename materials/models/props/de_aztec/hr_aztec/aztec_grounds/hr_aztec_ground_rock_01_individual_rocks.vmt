@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\props\de_aztec\hr_aztec\aztec_grounds\hr_aztec_ground_rock_01_individual_rocks_color"
+    "$bumpmap" 				"models\props\de_aztec\hr_aztec\aztec_grounds\hr_aztec_ground_rock_01_individual_rocks_normal"
+	//"$decaltexture"			"models\props\de_aztec\hr_aztec\aztec_grounds\aztec_wall_stone_01_set_ao"
+	//"$decalblendmode"		"1"
+	"$surfaceprop" 			"rock"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

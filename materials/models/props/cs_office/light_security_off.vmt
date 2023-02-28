@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_office\light_securitya"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "FX\white25_ref"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

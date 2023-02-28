@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props\CS_Militia/axe"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props\CS_Militia\axe_ref"
+	"$surfaceprop" "Wood_Plank"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

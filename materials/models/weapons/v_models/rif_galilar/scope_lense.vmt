@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$additive" 1
+	"$color" "[3 3.5 3]"
+	"$envmap"                 "environment maps/metal_generic_002"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[0.8 0.8 0.8]"
+}

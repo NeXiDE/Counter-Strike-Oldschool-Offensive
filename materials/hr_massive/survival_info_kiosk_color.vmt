@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\survival_info_kiosk_color"
+	"$surfaceprop" "glass"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$basetexture "models\props_lighting\light_shop"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

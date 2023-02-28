@@ -1,0 +1,12 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/parkinglot_light001_on.vtf"
+$selfillum 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

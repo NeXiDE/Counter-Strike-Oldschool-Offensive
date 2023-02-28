@@ -1,0 +1,23 @@
+
+"VertexLitGeneric"
+{
+	    $basetexture "models\props\cs_assault\warehouseBeams"
+
+
+	 // Suraface type
+	    $surfaceprop "metal"
+
+	 // add phong specularity
+	    $basemapalphaphongmask "1"
+	    $phong 1
+	    $phongBoost 4
+	    $phongExponent 60
+	    $phongTint "{196 232 253}"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

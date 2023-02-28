@@ -1,0 +1,20 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "hr_massive\insulation_panels_dirty_color"
+
+	"$surfaceprop"            "concrete"
+	"$envmap"                 "environment maps/metal_generic_001"
+	"$envmapmask"             "hr_massive\insulation_panels_dirty_mask"
+	"$envmaplightscale"       "1"
+	"$envmaplightscaleminmax" "[0 1.25]"
+	"$envmapsaturation"       ".65"
+	"$envmapcontrast"         ".8"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,19 @@
+UnlitGeneric
+{
+
+
+
+$envmap env_cubemap
+$model 1
+$envmaptint "[1 1 1]"
+UnlitGeneric_HDR_dx9
+{
+$envmaptint "[.25 .25 .25]"
+}
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

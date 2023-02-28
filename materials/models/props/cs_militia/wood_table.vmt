@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_militia\wood_table"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

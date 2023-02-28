@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	$basetexture  "models/player/custom_player/econ/body/ctm_national_gendarmerie/ctm_national_gendarmerie_color"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_overpass/overpass_cafe_color"
+
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props/de_overpass/overpass_cafe_mask"
+	"$envmapcontrast" "1.01"
+
+
+
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

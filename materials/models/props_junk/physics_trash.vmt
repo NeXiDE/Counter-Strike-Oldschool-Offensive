@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$basetexture "Models/props_junk/physics_trash"
+$surfaceprop default
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

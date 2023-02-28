@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_nuke\nukdoorsb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "de_nuke\nukdoorsb_ref"
+	"$surfaceprop" "metal"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

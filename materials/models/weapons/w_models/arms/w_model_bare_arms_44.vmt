@@ -1,0 +1,24 @@
+character
+{
+	"$basetexture"            "models/weapons/w_models/arms/w_model_bare_arms_44_color"
+	"$bumpmap"                "models/weapons/w_models/arms/w_model_bare_arms_55_normal"
+	"$masks1"                 "models/weapons/w_models/arms/w_model_bare_arms_masks1"
+	"$phongwarptexture"       "models/weapons/customization/materials/material_specwarp"
+	"$fresnelrangestexture"   "models/weapons/v_models/arms/bare/bare_arm_fresnelrange"
+	"$envmap"                 "env_cubemap"
+	"$basealphaenvmask"       "1"
+	"$shadowsaturation"       "0.2"
+	"$shadowsaturationbounds" "[0.25 0.5 0.5 0.7]"
+	"$phongboost"             "0.1"
+	"$phongalbedoboost"       "0.2"
+	"$rimlightexponent"       "4"
+	"$rimlightboost"          "1"
+	"$rimlightalbedo"         "0.6"
+	"$ambientreflectionboost" "0.1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_aztec\hr_aztec\aztec_roofs\hr_aztec_roof_thatch_edge_01_color_ao"
+    "$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_roofs\hr_aztec_roof_thatch_edge_01_normal"
+	"$allowalphatocoverage" "1"
+	"$surfaceprop" 			"dirt"
+	"$alphatest" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$baseTexture" 		"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_tarp_01_color"
+	"$bumpmap" 			"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_tarp_01_normal"
+	"$decaltexture"		"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_01_ao"
+	"$decalblendmode"	"1"
+	"$tintmasktexture" 	"models\props\de_aztec\hr_aztec\aztec_scaffolding\aztec_scaffolding_tarp_01_tint"
+	"$surfaceprop" 		"carpet"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

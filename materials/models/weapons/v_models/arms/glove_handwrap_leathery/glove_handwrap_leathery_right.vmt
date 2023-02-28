@@ -1,0 +1,20 @@
+"character"
+
+{              
+	$basetexture				black
+
+	$bumpmap					"models\weapons\customization\glove_handwrap_leathery\glove_handwrap_leathery_normal"
+	$masks1						white
+
+	$phongboost					1.0
+	$phongalbedoboost			7
+	$phongwarptexture			"models\weapons\customization\materials\material_specwarp"
+	
+	
+	GPU<2
+	{
+		"$phong"		"0"
+		"$envmap" 	""
+		"$envmaptint" 	"[0 0 0]"
+	}	
+}              

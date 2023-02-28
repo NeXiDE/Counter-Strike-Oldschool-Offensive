@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_electric_panel\dust_electric_panel_color"
+
+	"$surfaceprop" 			"metal"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

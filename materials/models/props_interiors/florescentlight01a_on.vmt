@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_interiors/FlorescentLight01a"
+	"$selfillum" 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}
+

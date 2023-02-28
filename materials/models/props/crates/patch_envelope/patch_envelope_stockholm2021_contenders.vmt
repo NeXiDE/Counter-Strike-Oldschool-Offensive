@@ -1,0 +1,17 @@
+character
+{
+	"$basetexture"      "models/props/crates/patch_envelope/patch_envelope_stockholm2021_contenders"
+	"$envmap"           "models/props/de_nuke/hr_nuke/airduct_hvac_001/airduct_hvac_001_cube"
+	"$envmaptint"       "0.1"
+	"$basealphaenvmask" "1"
+	"$bumpmap"          "models/props/crates/patch_envelope/patch_envelope_normal"
+	"$phong"            "1"
+	"$phongboost"       "0.3"
+	"$phongexponent"    "200"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

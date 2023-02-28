@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles/police_car_lit"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_vehicles\police_car3_ref"
+	"$selfillum" "1"
+
+"Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "10"
+  }
+ }
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

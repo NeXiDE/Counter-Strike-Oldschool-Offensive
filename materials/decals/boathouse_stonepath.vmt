@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/boathouse_stonepath"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250000"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

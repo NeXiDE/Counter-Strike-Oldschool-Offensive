@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$color"         "0"
+	"$translucent"   "1"
+	"$additive"      "1"
+	"$envmap"        "editor/cube_vertigo"
+	"$envmapfresnel" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

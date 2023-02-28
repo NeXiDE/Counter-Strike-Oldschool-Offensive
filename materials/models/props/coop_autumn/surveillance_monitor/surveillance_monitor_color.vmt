@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\surveillance_monitor\surveillance_monitor_color"
+
+
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+//	"$phongExponent" 		"35"
+	"$phong"                   "1"
+	"$phongboost"              "1"
+	"$phongfresnelranges"      "[.8 .8 1]"
+	"$basemapalphaphongmask"   "1"
+	"$envmap"                  "env_cubemap"
+	"$envmapfresnel"           "1"
+	"$envmaptint" 		"[.01 .01 .01]"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

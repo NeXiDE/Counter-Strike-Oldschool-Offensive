@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\offdesktopsd"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood\offdesktopsd_ref"
+	"$surfaceprop" "wood"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,12 @@
+"unlitgeneric"
+{
+	"$basetexture" "cs_havana/white"
+	"$surfaceprop" "glass"
+	"$color"       "[.9 .9 1]"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

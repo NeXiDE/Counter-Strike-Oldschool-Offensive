@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+$baseTexture "metal/metal_corrugated03b"
+$surfaceprop metalvent
+$nocull 1
+
+
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

@@ -1,0 +1,20 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/inventory_items/op11/op11_bronze"
+	"$bumpmap"                   "models/inventory_items/op11/op11_normal"
+	"$envmap"                    "editor/cube_vertigo_blurred_hdr"
+	"$normalmapalphaenvmapmask"  "1"
+	"$basemapluminancephongmask" "1"
+	"$phong"                     "1"
+	"$phongexponent"             "30"
+	"$color"                     "{ 255 214 167 }"
+	"$envmaptint"                "{ 112 88 61 }"
+	"$phongtint"                 "{ 112 88 61 }"
+	"$phongboost"                "30"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

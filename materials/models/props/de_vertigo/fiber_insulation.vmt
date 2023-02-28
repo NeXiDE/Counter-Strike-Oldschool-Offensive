@@ -1,0 +1,12 @@
+
+"VertexLitGeneric"
+{
+	    $basetexture "models\props\De_Vertigo\fiber_insulation"
+	    $surfaceprop "upholstery"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

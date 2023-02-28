@@ -1,0 +1,16 @@
+DecalModulate
+{
+$baseTexture "decals/checkpointarrow01_orange"
+
+$decal 1
+$fogscale "2.5"
+$decalscale "0.20"
+$vertexcolor 1
+$vertexalpha 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

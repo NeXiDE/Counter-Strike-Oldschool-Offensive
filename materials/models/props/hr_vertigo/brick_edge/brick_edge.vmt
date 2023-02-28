@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"brick\hr_brick\vertigo\hr_brick_white_01"
+
+	"$bumpmap" 	"brick\hr_brick\vertigo\hr_brick_white_01_normal"
+	"$surfaceprop" 	"brick"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

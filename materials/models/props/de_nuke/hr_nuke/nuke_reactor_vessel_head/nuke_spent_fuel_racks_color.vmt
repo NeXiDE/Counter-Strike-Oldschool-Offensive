@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props/de_nuke/hr_nuke/nuke_reactor_vessel_head/nuke_spent_fuel_racks_color"
+	"$surfaceprop" "metal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

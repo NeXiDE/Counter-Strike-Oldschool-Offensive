@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+	"$translucent" 1
+	"$basetexture" "de_nuke\nuke_metalgrate_01"
+	"$surfaceprop" "metalgrate"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

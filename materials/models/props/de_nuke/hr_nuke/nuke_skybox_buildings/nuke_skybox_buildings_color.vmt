@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/nuke_skybox_buildings/nuke_skybox_buildings_color"
+	"$blendtintbybasealpha" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

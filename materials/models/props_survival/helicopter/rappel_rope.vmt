@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+	$basetexture "effects\black"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

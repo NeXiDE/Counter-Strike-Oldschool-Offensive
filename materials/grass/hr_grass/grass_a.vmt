@@ -1,0 +1,12 @@
+LightmappedGeneric
+{
+$baseTexture "grass/hr_grass/grass_a"
+$bumpmap "grass/hr_grass/grass_a_normals"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

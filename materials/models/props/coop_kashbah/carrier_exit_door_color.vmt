@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_kashbah\carrier_exit_door_color"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

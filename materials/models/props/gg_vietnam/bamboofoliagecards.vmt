@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/gg_Vietnam/bambooFoliageCards"
+	"$nocull" 1
+//	"$translucent" 1
+
+	"$alphatest" 1
+	"$alphatestreference"	".3"
+
+	"$DISABLECSMLOOKUP" "1"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

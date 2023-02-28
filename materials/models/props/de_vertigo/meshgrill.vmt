@@ -1,0 +1,26 @@
+
+"VertexLitGeneric"
+{
+
+
+	    $basetexture "models\props\De_Vertigo\meshGrill"
+	    $bumpmap 	"models\props\De_Vertigo\meshGrill_N.vtf"
+
+	    $surfaceprop "metalvent"
+
+            $AlphaTest 1
+	    $AlphaTestReference 0.3
+
+	 // adds phong specularity
+	    $phong 1
+	    $phongBoost 2
+	    $phongExponent 45
+	    $phongTint "{152 196 241}"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

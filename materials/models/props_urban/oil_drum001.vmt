@@ -1,0 +1,12 @@
+
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/oil_drum001.vtf"
+$bumpmap "models/props_urban/oil_drum001_normal.vtf"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

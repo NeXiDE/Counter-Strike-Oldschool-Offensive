@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+"$basetexturetransform" "center 1 1 scale 3 3 rotate 0 translate 0 0"
+
+"$basetexture" "models\props\de_inferno\hr_i\wine_crate_a\wine_crate_a.vtf"
+
+"$surfaceprop" "wood"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

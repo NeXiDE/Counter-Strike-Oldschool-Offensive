@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_vehicles/tankertrailer"
+	"$envmap"      "env_cubemap"
+	"$envmapmask"  "models/props_vehicles/tankertrailer_ref"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

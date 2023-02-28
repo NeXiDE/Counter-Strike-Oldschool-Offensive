@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\coop_autumn\autumn_curbs\autumn_curbs_color"
+
+	"$bumpmap" "models\props\coop_autumn\autumn_curbs\autumn_curbs_normal"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

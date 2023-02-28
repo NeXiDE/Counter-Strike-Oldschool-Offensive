@@ -1,0 +1,14 @@
+"Subrect"
+{
+	"$Material"	"decals/decals_mod2x"
+	"$Pos"		"768 256"
+	"$Size"		"128 32"
+	"$decalscale" 	0.10
+	"$modelmaterial" "decals/manhackcut"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

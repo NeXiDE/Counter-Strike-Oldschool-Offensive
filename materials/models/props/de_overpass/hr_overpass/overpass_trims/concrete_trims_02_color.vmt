@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\de_overpass\hr_overpass\overpass_trims\concrete_trims_02_color"
+
+	"$bumpmap" 	"models\props\de_overpass\hr_overpass\overpass_trims\concrete_trims_02_normal"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

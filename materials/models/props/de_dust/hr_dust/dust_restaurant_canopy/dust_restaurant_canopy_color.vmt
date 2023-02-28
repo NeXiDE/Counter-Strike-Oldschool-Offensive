@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_dust\hr_dust\dust_restaurant_canopy\dust_restaurant_canopy_color"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

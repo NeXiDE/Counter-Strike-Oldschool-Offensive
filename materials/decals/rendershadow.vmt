@@ -1,0 +1,20 @@
+Shadow
+{
+
+$blobbyshadows 0
+$no_fullbright 1
+$decal 1
+"%noToolTexture" 1
+Proxies
+{
+Shadow
+{
+}
+}
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

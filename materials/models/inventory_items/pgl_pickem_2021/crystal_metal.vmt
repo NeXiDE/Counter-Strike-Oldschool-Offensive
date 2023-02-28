@@ -1,0 +1,22 @@
+"vertexlitgeneric"
+{
+	"$basetexture"              "models/inventory_items/pgl_pickem_2021/crystal_metal"
+	"$bumpmap"                  "models/inventory_items/pgl_pickem_2021/bronze_normal"
+	"$phongexponenttexture"     "models/inventory_items/pgl_pickem_2021/bronze_exponent"
+	"$alphatest"                "1"
+	"$envmap"                   "editor/cube_vertigo"
+	"$envmaptint"               "[.1 .14 .08]"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongboost"               "0.1"
+	"$phongfresnelranges"       "[.7 .8 1]"
+	"$phongalbedotint"          "1"
+	"$phongalbedoboost"         "80"
+	"$phongdisablehalflambert"  "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

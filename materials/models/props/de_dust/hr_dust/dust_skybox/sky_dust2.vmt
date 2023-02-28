@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture"			"models\props\de_dust\hr_dust\dust_skybox\sky_dust2"
+
+	"$nofog"				"1"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

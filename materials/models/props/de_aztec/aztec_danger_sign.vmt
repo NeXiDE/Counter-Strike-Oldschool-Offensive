@@ -1,0 +1,12 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_aztec/aztec_danger_sign"
+	"$surfaceprop" "wood"
+	"$bumpmap" "models/props/de_aztec/aztec_danger_sign_normal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

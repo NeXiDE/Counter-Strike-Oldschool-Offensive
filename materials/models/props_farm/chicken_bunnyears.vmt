@@ -1,0 +1,10 @@
+VertexlitGeneric
+{
+	"$basetexture" 	"models\props_farm\chicken_bunnyears"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

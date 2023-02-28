@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_dust/palace_pillars"
+	//"$bumpMap" "models/props/de_dust/palace_pillars_normal"
+    "$blendtintbybasealpha" "1"
+	"$surfaceprop" "concrete"
+	"$detail" "detail/dt_stone1"
+	"$detailscale" "[12 10]"
+	"$detailblendfactor" "0.4"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

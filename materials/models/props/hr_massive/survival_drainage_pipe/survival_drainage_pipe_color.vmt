@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_drainage_pipe\survival_drainage_pipe_color"
+
+//	"$bumpmap" 	"models\props\hr_massive\survival_drainage_pipe\survival_drainage_pipe_normal"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

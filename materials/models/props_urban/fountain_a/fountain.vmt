@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_urban/fountain_a/fountain"
+$phong 1
+$phongexponent 50
+$phongboost ".01"
+$phongfresnelranges "[.7 15 20]"
+$bumpmap "models/props_urban/fountain_a/fountain_normal"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

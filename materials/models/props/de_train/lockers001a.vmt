@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props\de_train\Lockers001a"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}
+

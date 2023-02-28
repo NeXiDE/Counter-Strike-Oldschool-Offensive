@@ -1,0 +1,15 @@
+"UnLitGeneric"
+{
+	"$basetexture" "models\props\hr_massive\survival_skybox_terrain\survival_skybox_terrain"
+
+//	"$nofog"	"1"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

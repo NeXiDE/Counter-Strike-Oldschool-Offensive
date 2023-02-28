@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$baseTexture" 		"de_dust/dust_palacewall01"
+	"$surfaceprop" 		"plaster"
+	"$bumpmap" 		"de_dust/dust_palacewall01_normal"
+ 	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

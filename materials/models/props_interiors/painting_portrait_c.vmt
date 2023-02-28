@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_interiors/Painting_Portrait_C"
+$envmap env_cubemap
+$envmaptint "[.6 .6 .6]"
+$envmapmask "models\props_interiors\Painting_Portrait_A_ref"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

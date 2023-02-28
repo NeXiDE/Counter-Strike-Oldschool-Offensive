@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "decals/posters03"
+	"$decal" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

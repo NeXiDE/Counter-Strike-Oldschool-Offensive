@@ -1,0 +1,13 @@
+Shadow
+{
+$basetexture "Decals/simpleshadow"
+$blobbyshadows 1
+$decal 1
+$no_fullbright 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

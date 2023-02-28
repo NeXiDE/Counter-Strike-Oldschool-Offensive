@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$color"       "0.3"
+	"$basetexture" "models/props_vehicles/car_glass.vtf"
+	"$envmap"      "env_cubemap"
+	"$envmaptint"  "0.2"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

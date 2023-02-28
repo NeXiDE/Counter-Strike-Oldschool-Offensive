@@ -1,0 +1,13 @@
+"vertexlitGeneric"
+{
+	"$baseTexture" "de_dust/siteBwall13a"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "de_dust/siteBwall13a_normal"
+	"%keywords" "cstrike"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

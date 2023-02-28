@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_radiator\survival_radiator_color"
+
+	"$bumpmap" 	"models\props\hr_massive\survival_radiator\survival_radiator_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+        "$phongBoost" "2"
+        "$phongExponent" "60"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

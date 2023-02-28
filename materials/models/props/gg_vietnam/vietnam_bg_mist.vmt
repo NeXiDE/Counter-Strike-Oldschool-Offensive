@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props/gg_vietnam/vietnam_bg_mist"
+	"$translucent" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

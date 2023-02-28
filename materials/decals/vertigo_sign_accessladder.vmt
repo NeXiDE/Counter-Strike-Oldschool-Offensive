@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\vertigo_sign_accessladder"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "1.000"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

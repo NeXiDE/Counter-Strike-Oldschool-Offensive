@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\props\hr_massive\survival_dock_bumpertires\survival_dock_bumpertires_color"
+	"$bumpmap" 	"models\props\hr_massive\survival_dock_bumpertires\survival_dock_bumpertires_normal"
+
+	"$nodecal" "1"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

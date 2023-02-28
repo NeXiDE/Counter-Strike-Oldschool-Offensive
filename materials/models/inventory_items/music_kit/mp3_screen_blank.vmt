@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\inventory_items\music_kit\mp3_screen_blank"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

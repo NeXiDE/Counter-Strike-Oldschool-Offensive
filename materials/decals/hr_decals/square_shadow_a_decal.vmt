@@ -1,0 +1,15 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "decals\hr_decals\square_shadow_a_decal"
+
+	"$translucent" 1
+	"$decal" 1
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

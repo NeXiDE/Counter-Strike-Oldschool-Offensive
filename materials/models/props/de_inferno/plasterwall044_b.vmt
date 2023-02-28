@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props/de_inferno/plasterwall044_b"
+	//"$bumpMap" "models/props/de_inferno/plasterwall044_b_normal"
+                "$surfaceprop" "plaster"
+
+                "$blendtintbybasealpha" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

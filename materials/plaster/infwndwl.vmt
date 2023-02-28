@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\infwndwl"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster\infwndwl_ref"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

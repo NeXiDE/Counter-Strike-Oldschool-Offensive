@@ -1,0 +1,14 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_gameplay/target_bullseye_prop"
+	"$surfaceprop" "metal"
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

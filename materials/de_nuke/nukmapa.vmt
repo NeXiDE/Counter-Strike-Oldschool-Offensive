@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_nuke\nukmapa"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "de_prodigy\prodmapa_ref"
+	"$surfaceprop" "plastic"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

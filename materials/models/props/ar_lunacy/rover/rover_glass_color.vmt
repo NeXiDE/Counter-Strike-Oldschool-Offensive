@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\ar_lunacy\rover\rover_glass_color"
+
+	"$envmap"	"environment maps/metal_generic_001"
+	"$envmapmask" 	"models\props\ar_lunacy\rover\rover_glass_mask"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

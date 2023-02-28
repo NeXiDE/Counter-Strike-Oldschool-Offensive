@@ -1,0 +1,18 @@
+lightmappedgeneric
+{
+$baseTexture "metal/metal_ext_11"
+$surfaceprop metal
+$ssbump 1
+$bumpmap "metal/metal_ext_09_height-ssbump"
+$envmap env_cubemap
+$normalmapalphaenvmapmask 1
+$envmaptint "[.1 .1 .1]"
+"%keywords" l4d2
+$SSBumpMathFix 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

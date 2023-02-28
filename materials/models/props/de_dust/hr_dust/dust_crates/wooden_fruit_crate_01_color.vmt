@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\props\de_dust\hr_dust\dust_crates\wooden_fruit_crate_01_color"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

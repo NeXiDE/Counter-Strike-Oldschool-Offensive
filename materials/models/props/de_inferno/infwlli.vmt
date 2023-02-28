@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+
+	"$basetexture"	"plaster\infwlli"
+	"$surfaceprop" "plaster"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

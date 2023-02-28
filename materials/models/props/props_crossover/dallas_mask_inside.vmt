@@ -1,0 +1,13 @@
+"vertexLitGeneric"
+{
+	"$baseTexture" "models/props/props_crossover/dallas_mask_inside_df.vtf"
+	//"$bumpmap"	"models/props/props_crossover/dallas_mask_nm.vtf"
+	//"$translucent" "1"
+	//"$alphatest" "1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

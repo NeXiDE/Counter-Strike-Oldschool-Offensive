@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_street/police_barricade"
+	"$translucent" "1"
+//	"$Alphatest" "1"
+//	"$AlphaTestReference" "0.7"
+//	"$Envmap" "env_cubemap"
+//	"$EnvmapMask" "models\props_street\police_barricade_ref"
+//	"$envmaptint" "[.15 .15 .15]"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

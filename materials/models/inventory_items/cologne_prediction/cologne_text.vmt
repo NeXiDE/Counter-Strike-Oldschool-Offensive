@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	$color "[.8 .8 .8]"
+	$additive 1
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

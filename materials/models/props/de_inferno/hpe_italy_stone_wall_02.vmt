@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture" "cs_italy/hpe_italy_stone_wall_02"
+	"$surfaceprop" "rock"
+	"$bumpmap" "cs_italy/hpe_italy_stone_wall_02_normal"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

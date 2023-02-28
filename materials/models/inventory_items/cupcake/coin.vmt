@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\inventory_items\cupcake\anniversary_coin"
+	"$bumpmap"				"models\inventory_items\cupcake\anniversary_coin_normal"
+	"$phongexponenttexture" "models\inventory_items\cupcake\anniversary_coin_exponent"
+	"$phong" 1
+	"$phongalbedoboost" 16
+	"$phongalbedotint" "1"
+	"$basealphaenvmapmask" "1"
+	"$envmap"		"Editor\cube_vertigo"
+	"$envmapcontrast" "1"
+	"$envmaptint" "[1 .8 .25]"
+	"$phongdisablehalflambert" "1"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

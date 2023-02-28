@@ -1,0 +1,13 @@
+DecalModulate
+{
+$baseTexture "decals\computer\computer3"
+$decal 1
+$decalscale "0.15"
+$decalScaleVariation "0.1"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

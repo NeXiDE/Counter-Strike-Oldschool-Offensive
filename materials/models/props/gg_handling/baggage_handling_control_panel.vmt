@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/gg_handling/baggage_handling_control_panel"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

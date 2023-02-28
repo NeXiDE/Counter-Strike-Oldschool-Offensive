@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/props/de_dust/dust_arch_small"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

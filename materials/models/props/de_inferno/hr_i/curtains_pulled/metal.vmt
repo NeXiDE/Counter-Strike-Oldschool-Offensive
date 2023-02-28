@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/hr_metal/inferno/metal_a"
+
+	"$surfaceprop" "metal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" 		"[.35 .35 .35]"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

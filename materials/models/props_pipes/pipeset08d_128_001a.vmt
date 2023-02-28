@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_pipes/PipeSet08d_128_001a"
+
+
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

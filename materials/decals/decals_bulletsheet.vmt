@@ -1,0 +1,14 @@
+DecalModulate
+{
+	$baseTexture "decals/Decals_bulletsheet"
+	$vertexcolor 1
+	$vertexalpha 1
+	$decal 1
+	$fogfadeend 0.5
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

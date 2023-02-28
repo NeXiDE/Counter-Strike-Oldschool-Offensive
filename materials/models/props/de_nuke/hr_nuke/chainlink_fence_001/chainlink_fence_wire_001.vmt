@@ -1,0 +1,16 @@
+vertexlitgeneric
+{
+	"$basetexture"          "models/props/de_nuke/hr_nuke/chainlink_fence_001/chainlink_fence_wire_001_mip0"
+	"$alphatest"            "1"
+	"$allowalphatocoverage" "1"
+	"$alphatestreference"   "0.4"
+	"$nodecal"              "1"
+	"$model"                "1"
+	"$surfaceprop"          "chainlink"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

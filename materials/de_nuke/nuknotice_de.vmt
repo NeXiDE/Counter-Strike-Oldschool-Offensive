@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_nuke\nuknotice_de"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "12.000"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

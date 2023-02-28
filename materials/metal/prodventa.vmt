@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\prodventa"
+	"$surfaceprop" "panel"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "metal\prodventa_normal"
+	"$normalmapalphaenvmapmask" "1"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

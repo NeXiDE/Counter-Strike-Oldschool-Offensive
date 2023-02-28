@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props\dust_massive\bridges\concrete_bridge_arch_02_color"
+
+	"$surfaceprop" 			"rock"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

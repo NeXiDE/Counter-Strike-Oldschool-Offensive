@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/vertigo_door1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/vertigo_door1_ref"
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

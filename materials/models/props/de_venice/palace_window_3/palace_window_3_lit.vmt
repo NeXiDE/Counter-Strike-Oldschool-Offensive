@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props\de_venice\palace_window_3\palace_window_3"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\props\de_venice\palace_window_3\palace_window_3_illum"
+
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}

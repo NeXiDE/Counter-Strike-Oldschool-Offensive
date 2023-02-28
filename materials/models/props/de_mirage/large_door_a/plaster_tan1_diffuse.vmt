@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+"$basetexture" "de_mirage/plaster/plaster_tan1_diffuse"
+
+	GPU<2
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}
