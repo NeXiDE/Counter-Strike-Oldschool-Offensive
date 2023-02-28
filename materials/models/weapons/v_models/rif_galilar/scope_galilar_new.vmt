@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$nocull" 1
-	"$basetexture"	"models\weapons\v_models\rif_galilar\scope_lense"
-	"$translucent" 1
-}
